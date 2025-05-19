@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter Tight", sans-serif;
+}
+.navbar {
+    background-color: rgba(0,0,0,.85) !important;
+}
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+}
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover {
+    color: #fff;
+}
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+.navbar-toggler i {
+    color: #fff;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* hero slider  */
+.slide {
+    height: 70dvh;
+
+}
+.slide-1 {
+    background-image: url('../images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide-2 {
+    background-image: url('../images/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide-3 {
+    background-image: url('../images/3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide .hero-content {
+    max-width: 600px;
+}
+.slide .hero-title {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.slide p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.slide .hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F0B82D;
+    padding: 12px 25px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .slide .hero-title {
+        font-size: 35px;
+    }
+    .slide .hero-btn {
+        padding: 10px 20px;
+    }
+}
