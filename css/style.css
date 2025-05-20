@@ -235,15 +235,15 @@ body {
   padding-top: 15px;
 }
 
-
-
-
 /* Junior Team section style  */
 .junior-team-section {
   padding: 70px 0;
   background-color: #6d080a0a;
 }
 
+.team-section {
+  padding: 70px 0;
+}
 
 
 
