@@ -34,12 +34,13 @@
     </nav>
   </header>
   <main>
+    <!-- Hero Section start  -->
     <section>
       <div class="owl-carousel">
         <div class="slide slide-1 d-flex align-items-center">
           <div class="container">
             <div class="hero-content">
-              <h2 class="hero-title">Football club United</h2>
+              <h1 class="hero-title">Football club United</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi odio magnam culpa laudantium eos natus accusamus vel ex enim quisquam in doloribus quibusdam consequuntur autem, et maxime quas! Tempore.</p>
               <a class="hero-btn" href="#">View More</a>
             </div>
@@ -48,7 +49,7 @@
         <div class="slide slide-2 d-flex align-items-center">
           <div class="container">
             <div class="hero-content">
-              <h2 class="hero-title">Get ready for the game of your life!</h2>
+              <h1 class="hero-title">Get ready for the game of your life!</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi odio magnam culpa laudantium eos natus accusamus vel ex enim quisquam in doloribus quibusdam consequuntur autem, et maxime quas! Tempore.</p>
               <a class="hero-btn" href="#">View More</a>
             </div>
@@ -57,7 +58,7 @@
         <div class="slide slide-3 d-flex align-items-center">
           <div class="container">
             <div class="hero-content">
-              <h2 class="hero-title">Detailed soccer match news & reviews</h2>
+              <h1 class="hero-title">Detailed soccer match news & reviews</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi odio magnam culpa laudantium eos natus accusamus vel ex enim quisquam in doloribus quibusdam consequuntur autem, et maxime quas! Tempore.</p>
               <a class="hero-btn" href="#">View More</a>
             </div>
@@ -65,6 +66,32 @@
         </div>
       </div>
     </section>
+    <!-- Hero Section end  -->
+    <!-- Next match section start  -->
+     <section class="next-match-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <h2 class="text-center">Next Match</h2>
+            <div class="row next-teams d-flex justify-content-between pt-4 g-4">
+              <div class="col-4 next-team d-flex flex-column align-items-center justify-content-center">
+                <img src="images/logo1.png" alt="Team Flag">
+                <h5 class="text-center">FC United</h5>
+              </div>
+              <div class="col-4 next-match-schedule d-flex flex-column justify-content-center">
+                <span class="text-center">VS</span>
+                <span class="schedule-time text-center">Jun 20, 2025</span>
+              </div>
+              <div class="col-4 next-team d-flex flex-column align-items-center justify-content-center">
+                <img src="images/logo2.png" alt="Team Flag">
+                <h5 class="text-center">West Ham United</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Next match section end  -->
   </main>
   <footer> </footer>
 
@@ -77,6 +104,9 @@
     $(document).ready(function() {
       $(".owl-carousel").owlCarousel({
         items: 1,
+        loop: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
       });
     });
   </script>
