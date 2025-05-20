@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Football</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href=""><img src="images/logo.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mb-2 mb-lg-0  ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+<?php require_once('header.php'); ?>
   <main>
     <!-- Hero Section start  -->
     <section>
@@ -75,7 +41,7 @@
             <h2 class="text-center section-title">Next Match</h2>
             <div class="row next-teams d-flex justify-content-between pt-4 g-4">
               <div class="col-4 next-team d-flex flex-column align-items-center justify-content-center">
-                <img src="images/logo1.png" alt="Team Flag">
+                <img src="images/4.png" alt="Team Flag">
                 <h5 class="text-center">FC United</h5>
               </div>
               <div class="col-4 next-match-schedule d-flex flex-column justify-content-center">
@@ -83,7 +49,7 @@
                 <span class="schedule-time text-center">Jun 20, 2025</span>
               </div>
               <div class="col-4 next-team d-flex flex-column align-items-center justify-content-center">
-                <img src="images/logo2.png" alt="Team Flag">
+                <img src="images/10.png" alt="Team Flag">
                 <h5 class="text-center">West Ham United</h5>
               </div>
             </div>
@@ -104,39 +70,16 @@
             </div>
             <div class="card-content d-flex flex-column align-items-center justify-content-center">
               <div class="d-flex align-items-center gap-3">
-              <div class="card-team d-flex align-items-center">
-                <h5>FC</h5>
-                <img src="images/logo1.png" alt="Team Flag">
-                <span class="team-result">2</span>
-              </div>
-              <div class="card-team d-flex align-items-center">
-                <span class="team-result">3</span>
-                <img src="images/logo2.png" alt="Team Flag">
-                <h5>PSG</h5>
-              </div>
-              </div>
-              <div class="card-bottom-bar pt-2">
-                <p class="text-center">Premier League 2025</p>
-              </div>
-            </div>
-          </div>
-          <div class="result-card">
-            <div class="d-flex align-items-center justify-content-between card-topbar">
-              <span>SUN 18.05.2025</span>
-              <span>23:00</span>
-            </div>
-            <div class="card-content d-flex flex-column align-items-center justify-content-center">
-              <div class="d-flex align-items-center gap-3">
-              <div class="card-team d-flex align-items-center">
-                <h5>FC</h5>
-                <img src="images/logo1.png" alt="Team Flag">
-                <span class="team-result">2</span>
-              </div>
-              <div class="card-team d-flex align-items-center">
-                <span class="team-result">3</span>
-                <img src="images/logo2.png" alt="Team Flag">
-                <h5>PSG</h5>
-              </div>
+                <div class="card-team d-flex align-items-center">
+                  <h5>FC</h5>
+                  <img src="images/4.png" alt="Team Flag">
+                  <span class="team-result">0</span>
+                </div>
+                <div class="card-team d-flex align-items-center">
+                  <span class="team-result">0</span>
+                  <img src="images/12.png" alt="Team Flag">
+                  <h5>PSG</h5>
+                </div>
               </div>
               <div class="card-bottom-bar pt-2">
                 <p class="text-center">Premier League 2025</p>
@@ -150,16 +93,85 @@
             </div>
             <div class="card-content d-flex flex-column align-items-center justify-content-center">
               <div class="d-flex align-items-center gap-3">
-              <div class="card-team d-flex align-items-center">
-                <h5>FC</h5>
-                <img src="images/logo1.png" alt="Team Flag">
-                <span class="team-result">2</span>
+                <div class="card-team d-flex align-items-center">
+                  <h5>FC</h5>
+                  <img src="images/6.png" alt="Team Flag">
+                  <span class="team-result">0</span>
+                </div>
+                <div class="card-team d-flex align-items-center">
+                  <span class="team-result">0</span>
+                  <img src="images/15.png" alt="Team Flag">
+                  <h5>PSG</h5>
+                </div>
               </div>
-              <div class="card-team d-flex align-items-center">
-                <span class="team-result">3</span>
-                <img src="images/logo2.png" alt="Team Flag">
-                <h5>PSG</h5>
+              <div class="card-bottom-bar pt-2">
+                <p class="text-center">Premier League 2025</p>
               </div>
+            </div>
+          </div>
+          <div class="result-card">
+            <div class="d-flex align-items-center justify-content-between card-topbar">
+              <span>SUN 18.05.2025</span>
+              <span>23:00</span>
+            </div>
+            <div class="card-content d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex align-items-center gap-3">
+                <div class="card-team d-flex align-items-center">
+                  <h5>FC</h5>
+                  <img src="images/7.png" alt="Team Flag">
+                  <span class="team-result">0</span>
+                </div>
+                <div class="card-team d-flex align-items-center">
+                  <span class="team-result">0</span>
+                  <img src="images/17.png" alt="Team Flag">
+                  <h5>PSG</h5>
+                </div>
+              </div>
+              <div class="card-bottom-bar pt-2">
+                <p class="text-center">Premier League 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="result-card">
+            <div class="d-flex align-items-center justify-content-between card-topbar">
+              <span>SUN 18.05.2025</span>
+              <span>23:00</span>
+            </div>
+            <div class="card-content d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex align-items-center gap-3">
+                <div class="card-team d-flex align-items-center">
+                  <h5>FC</h5>
+                  <img src="images/8.png" alt="Team Flag">
+                  <span class="team-result">0</span>
+                </div>
+                <div class="card-team d-flex align-items-center">
+                  <span class="team-result">0</span>
+                  <img src="images/18.png" alt="Team Flag">
+                  <h5>PSG</h5>
+                </div>
+              </div>
+              <div class="card-bottom-bar pt-2">
+                <p class="text-center">Premier League 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="result-card">
+            <div class="d-flex align-items-center justify-content-between card-topbar">
+              <span>SUN 18.05.2025</span>
+              <span>23:00</span>
+            </div>
+            <div class="card-content d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex align-items-center gap-3">
+                <div class="card-team d-flex align-items-center">
+                  <h5>FC</h5>
+                  <img src="images/9.png" alt="Team Flag">
+                  <span class="team-result">0</span>
+                </div>
+                <div class="card-team d-flex align-items-center">
+                  <span class="team-result">0</span>
+                  <img src="images/19.png" alt="Team Flag">
+                  <h5>PSG</h5>
+                </div>
               </div>
               <div class="card-bottom-bar pt-2">
                 <p class="text-center">Premier League 2025</p>
@@ -170,51 +182,125 @@
       </div>
     </section>
     <!-- Result match section end  -->
+    <!-- Senior Team section start  -->
+    <section class="senior-team-section">
+      <div class="container">
+        <h2 class="section-title text-center"><a href="senior-team.php">Senior Team</a></h2>
+        <div class="row g-4 pt-4">
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/4.png" alt="Team Flag">
+              <h4 class="team-name">FDF</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/6.png" alt="Team Flag">
+              <h4 class="team-name">Super-6</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/7.png" alt="Team Flag">
+              <h4 class="team-name">Friends Forever</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/8.png" alt="Team Flag">
+              <h4 class="team-name">Atkahon</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/9.png" alt="Team Flag">
+              <h4 class="team-name">Sunno-9</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/10.png" alt="Team Flag">
+              <h4 class="team-name">Ek-0-10</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Senior Team section end  -->
+    <!-- Junior Team section start  -->
+    <section class="junior-team-section">
+      <div class="container">
+        <h2 class="section-title text-center"><a href="junior-team.php">Junior Team</a></h2>
+         <div class="row g-4 pt-4">
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/12.png" alt="Team Flag">
+              <h4 class="team-name">বিজয়-১২</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/15.png" alt="Team Flag">
+              <h4 class="team-name">অপ্রতিরোধ্য</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/16.png" alt="Team Flag">
+              <h4 class="team-name">Avengers</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/17.png" alt="Team Flag">
+              <h4 class="team-name">Kingbodonti</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/18.png" alt="Team Flag">
+              <h4 class="team-name">Falcon</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/19.png" alt="Team Flag">
+              <h4 class="team-name">ধ্বংসযজ্ঞ-১৯</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/20.png" alt="Team Flag">
+              <h4 class="team-name">Taandob</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/21.png" alt="Team Flag">
+              <h4 class="team-name">প্রজন্ম-21</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/22.png" alt="Team Flag">
+              <h4 class="team-name">ভিধ্বংসী-২২</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/23.png" alt="Team Flag">
+              <h4 class="team-name">Biporjoy-23</h4>
+            </a>
+          </div>
+          <div class="col-3 team">
+            <a href="team.php">
+              <img src="images/24.png" alt="Team Flag">
+              <h4 class="team-name">নির্ভীক-২৪</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Junior Team section end  -->
   </main>
-  <footer> </footer>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    $(document).ready(function() {
-      $(".hero-carousel").owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        dragEndSpeed: 500,
-      });
-    });
-    // Result match slider 
-    $(document).ready(function() {
-      $(".result-carousel").owlCarousel({
-        items: 4,
-        loop: true,
-        autoplay: true,
-        margin: 10,
-        nav: true,
-        pagination: true,
-        navText: ['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
-        responsive: {
-          0: {
-            items: 1
-          },
-          768: {
-            items: 2
-          },
-          1024: {
-            items: 3
-          },
-          1280: {
-            items: 4
-          },
-        }
-      });
-    });
-  </script>
-</body>
-
-</html>
+<?php require_once('footer.php'); ?>
