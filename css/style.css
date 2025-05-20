@@ -79,15 +79,14 @@ body {
     background-color: #F0B82D;
     padding: 12px 25px;
 }
-.owl-dots {
+.hero-carousel .owl-dots {
     display: none;
 }
 /* Next match section style  */
 .next-match-section {
     padding: 50px 0;
-    background-color: #F4F4F4;
 }
-.next-match-section h2 {
+.section-title {
     font-size: 45px;
     font-weight: 600;
 }
@@ -110,6 +109,69 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+/* Result section style  */
+.result-section {
+    padding: 70px 0;
+    background-color: #F4F4F4;
+}
+.result-card {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 4px;
+    border: 1px solid rgba(196, 197, 198, 0.2);
+}
+.card-topbar {
+    padding: 8px 15px;
+    background-color: rgb(250, 250, 250);
+    border-bottom: 1px solid rgba(196, 197, 198, 0.2);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.card-topbar span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.card-content {
+    padding: 15px 15px 10px 15px;
+}
+.card-team {
+    gap: 10px;
+}
+.card-team h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.card-team span {
+    font-size: 30px;
+    font-weight: 600;
+}
+.card-team img {
+    width: 35px !important;
+    height: auto;
+}
+.result-carousel {
+    padding-top: 35px;
+}
+.result-carousel .owl-nav {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.result-carousel .owl-nav button i {
+    padding: 5px 10px !important;
+    background: green !important;
+    margin-left: 8px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 767px) {
@@ -134,7 +196,7 @@ body {
     .next-team h5 {
         font-size: 16px;
     }
-    .next-match-section h2 {
+    .section-title  {
         font-size: 35px;
     }
 }

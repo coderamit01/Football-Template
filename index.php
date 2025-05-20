@@ -36,7 +36,7 @@
   <main>
     <!-- Hero Section start  -->
     <section>
-      <div class="owl-carousel">
+      <div class="owl-carousel hero-carousel">
         <div class="slide slide-1 d-flex align-items-center">
           <div class="container">
             <div class="hero-content">
@@ -68,11 +68,11 @@
     </section>
     <!-- Hero Section end  -->
     <!-- Next match section start  -->
-     <section class="next-match-section">
+    <section class="next-match-section">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-6">
-            <h2 class="text-center">Next Match</h2>
+            <h2 class="text-center section-title">Next Match</h2>
             <div class="row next-teams d-flex justify-content-between pt-4 g-4">
               <div class="col-4 next-team d-flex flex-column align-items-center justify-content-center">
                 <img src="images/logo1.png" alt="Team Flag">
@@ -90,8 +90,85 @@
           </div>
         </div>
       </div>
-     </section>
+    </section>
     <!-- Next match section end  -->
+    <!-- Result match section end  -->
+    <section class="result-section">
+      <div class="container">
+        <div class="owl-carousel result-carousel">
+          <div class="result-card">
+            <div class="d-flex align-items-center justify-content-between card-topbar">
+              <span>SUN 18.05.2025</span>
+              <span>23:00</span>
+            </div>
+            <div class="card-content d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex align-items-center gap-3">
+              <div class="card-team d-flex align-items-center">
+                <h5>FC</h5>
+                <img src="images/logo1.png" alt="Team Flag">
+                <span class="team-result">2</span>
+              </div>
+              <div class="card-team d-flex align-items-center">
+                <span class="team-result">3</span>
+                <img src="images/logo2.png" alt="Team Flag">
+                <h5>PSG</h5>
+              </div>
+              </div>
+              <div class="card-bottom-bar pt-2">
+                <p class="text-center">Premier League 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="result-card">
+            <div class="d-flex align-items-center justify-content-between card-topbar">
+              <span>SUN 18.05.2025</span>
+              <span>23:00</span>
+            </div>
+            <div class="card-content d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex align-items-center gap-3">
+              <div class="card-team d-flex align-items-center">
+                <h5>FC</h5>
+                <img src="images/logo1.png" alt="Team Flag">
+                <span class="team-result">2</span>
+              </div>
+              <div class="card-team d-flex align-items-center">
+                <span class="team-result">3</span>
+                <img src="images/logo2.png" alt="Team Flag">
+                <h5>PSG</h5>
+              </div>
+              </div>
+              <div class="card-bottom-bar pt-2">
+                <p class="text-center">Premier League 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="result-card">
+            <div class="d-flex align-items-center justify-content-between card-topbar">
+              <span>SUN 18.05.2025</span>
+              <span>23:00</span>
+            </div>
+            <div class="card-content d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex align-items-center gap-3">
+              <div class="card-team d-flex align-items-center">
+                <h5>FC</h5>
+                <img src="images/logo1.png" alt="Team Flag">
+                <span class="team-result">2</span>
+              </div>
+              <div class="card-team d-flex align-items-center">
+                <span class="team-result">3</span>
+                <img src="images/logo2.png" alt="Team Flag">
+                <h5>PSG</h5>
+              </div>
+              </div>
+              <div class="card-bottom-bar pt-2">
+                <p class="text-center">Premier League 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Result match section end  -->
   </main>
   <footer> </footer>
 
@@ -102,11 +179,38 @@
   <script src="js/main.js"></script>
   <script>
     $(document).ready(function() {
-      $(".owl-carousel").owlCarousel({
+      $(".hero-carousel").owlCarousel({
         items: 1,
         loop: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
+        dragEndSpeed: 500,
+      });
+    });
+    // Result match slider 
+    $(document).ready(function() {
+      $(".result-carousel").owlCarousel({
+        items: 4,
+        loop: true,
+        autoplay: true,
+        margin: 10,
+        nav: true,
+        pagination: true,
+        navText: ['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1024: {
+            items: 3
+          },
+          1280: {
+            items: 4
+          },
+        }
       });
     });
   </script>
