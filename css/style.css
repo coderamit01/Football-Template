@@ -150,12 +150,16 @@ body {
     height: auto;
 }
 .result-carousel {
-    padding-top: 35px;
+    padding-top: 10px;
+}
+.recent-title {
+    font-size: 22px;
+    text-transform: capitalize;
 }
 .result-carousel .owl-nav {
     display: block !important;
     position: absolute;
-    top: 0;
+    top: -30px;
     right: 0;
 }
 .result-carousel .owl-nav button i {

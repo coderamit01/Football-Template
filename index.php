@@ -95,6 +95,7 @@
     <!-- Result match section end  -->
     <section class="result-section">
       <div class="container">
+        <h2 class="recent-title">Recent Results</h2>
         <div class="owl-carousel result-carousel">
           <div class="result-card">
             <div class="d-flex align-items-center justify-content-between card-topbar">
