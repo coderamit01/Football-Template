@@ -185,7 +185,7 @@
     <!-- Senior Team section start  -->
     <section class="senior-team-section">
       <div class="container">
-        <h2 class="section-title text-center"><a href="senior-team.php">Senior Team</a></h2>
+        <h2 class="section-title text-center"><a href="league.php">Senior Team</a></h2>
         <div class="row g-4 pt-4">
           <div class="col-3 team">
             <a href="team.php">
@@ -230,7 +230,7 @@
     <!-- Junior Team section start  -->
     <section class="junior-team-section">
       <div class="container">
-        <h2 class="section-title text-center"><a href="junior-team.php">Junior Team</a></h2>
+        <h2 class="section-title text-center"><a href="league.php">Junior Team</a></h2>
          <div class="row g-4 pt-4">
           <div class="col-3 team">
             <a href="team.php">

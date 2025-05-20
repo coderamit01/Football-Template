@@ -243,8 +243,16 @@ body {
 
 .team-section {
   padding: 70px 0;
+  background-color: #6d080a0a;
 }
-
+.table-team img {
+    width: 40px;
+    height: auto;
+}
+.table-team span {
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 
