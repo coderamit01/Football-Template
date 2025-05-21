@@ -9,7 +9,12 @@
 body {
   font-family: "Inter Tight", sans-serif;
 }
-
+.page-title {
+  font-size: 45px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 .navbar-brand img {
   height: 75px;
   width: auto;
@@ -254,9 +259,85 @@ body {
     font-weight: 500;
 }
 
+.page-title-section {
+  position: relative;
+  padding: 70px 0;
+  background: url('../images/team-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.page-title-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #1515154e;
+}
+.page-title-content {
+  position: relative;
+  z-index: 11;
+}
+/* Squad item style  */
+.squad-section .sc {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+}
+.cpatain-featured,
+.post_featured {
+  text-decoration: none;
+  position: relative;
+}
+.post_featured img {
+  width: 100%;
+  height: auto;
+}
+.cpatain-featured .player-number,
+.post_featured .player-number {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: #fff;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 55px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.sc-item-title a {
+  font-family: "Inter Tight", sans-serif;
+  text-transform: capitalize;
+  color: #151515;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.item-role {
+  color: #dd2124;
+  font-size: 16px;
+  font-weight: 600;
+}
+.captain .captain-name a {
+  display: block;
+  font-family: "Inter Tight", sans-serif;
+  text-transform: capitalize;
+  color: #151515;
+  text-decoration: none;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+.captain .player-role {
+  font-size: 16px;
+}
 
 
 
+
+
+
+
+/* Footer style  */
 .footer {
   padding: 20px 0;
   background-color: #151515;
@@ -268,6 +349,15 @@ body {
   text-decoration: none;
   color: #ef2024;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .squad-section .sc {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
 
 
 @media screen and (max-width: 767px) {
@@ -308,5 +398,14 @@ body {
   .senior-team-section,
   .junior-team-section {
     padding: 50px 0;
+  }
+  .page-title-section {
+    padding: 50px 0;
+  }
+  .page-title {
+    font-size: 30px;
+  }
+  .squad-section .sc {
+    grid-template-columns: repeat(2,1fr);
   }
 }

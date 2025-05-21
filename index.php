@@ -187,37 +187,37 @@
       <div class="container">
         <h2 class="section-title text-center"><a href="league.php">Senior Team</a></h2>
         <div class="row g-4 pt-4">
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/4.png" alt="Team Flag">
               <h4 class="team-name">FDF</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/6.png" alt="Team Flag">
               <h4 class="team-name">Super-6</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/7.png" alt="Team Flag">
               <h4 class="team-name">Friends Forever</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/8.png" alt="Team Flag">
               <h4 class="team-name">Atkahon</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/9.png" alt="Team Flag">
               <h4 class="team-name">Sunno-9</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/10.png" alt="Team Flag">
               <h4 class="team-name">Ek-0-10</h4>
@@ -232,67 +232,67 @@
       <div class="container">
         <h2 class="section-title text-center"><a href="league.php">Junior Team</a></h2>
          <div class="row g-4 pt-4">
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/12.png" alt="Team Flag">
               <h4 class="team-name">বিজয়-১২</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/15.png" alt="Team Flag">
               <h4 class="team-name">অপ্রতিরোধ্য</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/16.png" alt="Team Flag">
               <h4 class="team-name">Avengers</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/17.png" alt="Team Flag">
               <h4 class="team-name">Kingbodonti</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/18.png" alt="Team Flag">
               <h4 class="team-name">Falcon</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/19.png" alt="Team Flag">
               <h4 class="team-name">ধ্বংসযজ্ঞ-১৯</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/20.png" alt="Team Flag">
               <h4 class="team-name">Taandob</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/21.png" alt="Team Flag">
               <h4 class="team-name">প্রজন্ম-21</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/22.png" alt="Team Flag">
               <h4 class="team-name">ভিধ্বংসী-২২</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/23.png" alt="Team Flag">
               <h4 class="team-name">Biporjoy-23</h4>
             </a>
           </div>
-          <div class="col-3 team">
+          <div class="col-6 col-md-3 team">
             <a href="team.php">
               <img src="images/24.png" alt="Team Flag">
               <h4 class="team-name">নির্ভীক-২৪</h4>
