@@ -41,7 +41,7 @@
             <h2 class="text-center section-title">Next Match</h2>
             <div class="row next-teams d-flex justify-content-between pt-4 g-4">
               <div class="col-4 next-team d-flex flex-column align-items-center justify-content-center">
-                <img src="images/4.png" alt="Team Flag">
+                <a href="team.php"><img src="images/4.png" alt="Team Flag"></a>
                 <h5 class="text-center">FC United</h5>
               </div>
               <div class="col-4 next-match-schedule d-flex flex-column justify-content-center">
@@ -49,7 +49,7 @@
                 <span class="schedule-time text-center">Jun 20, 2025</span>
               </div>
               <div class="col-4 next-team d-flex flex-column align-items-center justify-content-center">
-                <img src="images/10.png" alt="Team Flag">
+                <a href="team.php"><img src="images/10.png" alt="Team Flag"></a>
                 <h5 class="text-center">West Ham United</h5>
               </div>
             </div>

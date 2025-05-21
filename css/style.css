@@ -262,7 +262,7 @@ body {
 .page-title-section {
   position: relative;
   padding: 70px 0;
-  background: url('../images/team-bg.jpg');
+  background: url('../images/team-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -330,10 +330,29 @@ body {
 .captain .player-role {
   font-size: 16px;
 }
-
-
-
-
+.player-page .page-title-section {
+  background: url('../images/player-bg.png');
+}
+.player-info {
+  padding: 20px;
+  background-color: #FCFCFD;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.info-mini-card {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.info-mini-card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.info-mini-card span {
+  font-size: 16px;
+}
+.single-player-section .player-img {
+  width: 100%;
+  height: auto;
+}
 
 
 
