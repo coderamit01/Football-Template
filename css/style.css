@@ -15,6 +15,15 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 }
+.section-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.sub-title {
+  color: #dd2124;
+  font-size: 16px;
+  font-weight: 500;
+}
 .navbar-brand img {
   height: 75px;
   width: auto;
@@ -106,10 +115,7 @@ body {
   padding: 50px 0;
 }
 
-.section-title {
-  font-size: 45px;
-  font-weight: 600;
-}
+
 .section-title a {
   text-decoration: none;
   color: #151515;
@@ -353,9 +359,30 @@ body {
   width: 100%;
   height: auto;
 }
-
-
-
+.league-page .page-title-section {
+  background: url('../images/league-bg.png');
+}
+.team-group-image img {
+  width: 100%;
+}
+.sc-item {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.sc-item-content {
+  padding: 0px 8px 8px 8px;
+}
+.rating {
+  font-size: 15px;
+  padding: 2px 5px;
+  color: #dd2124;
+  font-weight: 600;
+  background-color: #6d080a2b;
+  box-shadow: rgba(165, 149, 150, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+}
+.fixture-section {
+  
+}
 /* Footer style  */
 .footer {
   padding: 20px 0;

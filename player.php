@@ -17,8 +17,8 @@
             <span>Defender</span>
           </div>
           <div class="info-mini-card">
-            <h5 class="mb-1">Current Team</h5>
-            <span>Falcon</span>
+            <h5 class="mb-1">Current Occupation</h5>
+            <span>Student, Dhaka University</span>
           </div>
           <div class="info-mini-card">
             <h5 class="mb-1">Height</h5>
@@ -27,6 +27,10 @@
           <div class="info-mini-card">
             <h5 class="mb-1">Weight</h5>
             <span>60Kg</span>
+          </div>
+          <div class="info-mini-card">
+            <h5 class="mb-1">Rating</h5>
+            <span>7.3</span>
           </div>
         </div>
       </div>

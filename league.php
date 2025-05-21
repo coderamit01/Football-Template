@@ -1,9 +1,13 @@
 <?php require_once('header.php'); ?>
-<main>
-  <section class="team-section">
+<main class="league-page">
+  <section class="page-title-section">
+    <div class="container page-title-content">
+      <h2 class="page-title text-center mb-0">Squad</h2>
+    </div>
+  </section>
+  <section class="team-section pt-4">
     <div class="container">
-      <h2 class="section-title text-center pb-3">Teams</h2>
-      <div class="row g-4 pt-4">
+      <div class="row g-4">
         <div class="col-6 col-md-3 team">
           <a href="team.php">
             <img src="images/4.png" alt="Team Flag">

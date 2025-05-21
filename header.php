@@ -23,10 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mb-2 mb-lg-0  ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="league.php">Senior Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="league.php">Junior Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fixture.php">Fixture</a>
             </li>
           </ul>
         </div>
