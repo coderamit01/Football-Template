@@ -380,8 +380,24 @@ body {
   box-shadow: rgba(165, 149, 150, 0.2) 0px 8px 24px;
   border-radius: 4px;
 }
-.fixture-section {
-  
+.fixture-content {
+  padding: 10px;
+  border-right: 1px solid #ededed;
+}
+.fixture-team img {
+  width: 40px;
+  height: auto;
+}
+.fixture-team .fx-team-name {
+  font-size: 18px;
+}
+.fixture-result {
+  min-width: 130px;
+  padding: 10px;
+}
+.fixture-result span,
+.fixture-team .goal {
+  font-size: 16px;
 }
 /* Footer style  */
 .footer {
