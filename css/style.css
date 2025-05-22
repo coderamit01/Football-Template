@@ -479,4 +479,29 @@ body {
   .squad-section .sc {
     grid-template-columns: repeat(2,1fr);
   }
+  .slide {
+    height: 60dvh;
+  }
+}
+@media screen and (max-width: 512px) {
+  .fixture-result {
+      min-width: 105px;
+      padding: 5px;
+  }
+  .fixture-result span {
+      font-size: 15px;
+  }
+  .fixture-team .fx-team-name {
+      font-size: 16px;
+  }
+  .fixture-team img {
+      width: 34px;
+      height: auto;
+  }
+  .fixture-item > div {
+      padding: 5px;
+  }
+  .fixture-content {
+      padding: 5px 8px 5px 0px;
+  }
 }

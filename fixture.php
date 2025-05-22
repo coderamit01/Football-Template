@@ -5,7 +5,7 @@
       <h2 class="page-title text-center mb-0">Fixture</h2>
     </div>
   </section>
-  <section class="fixture-section py-5">
+  <section class="fixture-section py-4 py-md-5">
     <div class="container">
       <div class="fixtures row g-3">
         <div class="col-md-6 fixture-item">

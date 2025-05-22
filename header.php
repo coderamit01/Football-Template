@@ -32,7 +32,7 @@
               <a class="nav-link" href="league.php">Junior Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="fixture.php">Fixture</a>
+              <a class="nav-link" href="fixture.php">Fixture & Result</a>
             </li>
           </ul>
         </div>
